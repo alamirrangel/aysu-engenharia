@@ -1,0 +1,76 @@
+@media (max-width: 1280px) {
+    body {
+        padding: 0 40px;
+    }
+    h3 {
+        margin-bottom: 16px;
+    }
+    .compre button {
+        display: flex;
+        text-align: center;
+        margin: auto;
+    }
+}
+@media (max-width: 768px) {
+    .infomacoes {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .informacoes img {
+        display: block;
+        margin: auto;
+    }
+    .informacoes .descricao {
+        display: flex;
+        text-align: center;
+        margin: auto;
+        width: 80%;
+    }
+    .compre h3 {
+        display: flex;
+        text-align: center;
+        margin: auto;
+        width: 80%;
+        margin-bottom: 16px;
+    }
+    .compre button {
+        display: flex;
+        text-align: center;
+        margin: auto;
+    }
+}
+@media (max-width: 425px) {
+    .infomacoes .logo {
+        display: block;
+        margin: auto;
+        text-align: center;            
+    }
+    .informacoes .descricao {
+        width: 100%;
+    }
+    p .descricao {
+        margin-top: 8px;
+        margin-bottom: 16px;
+    }
+    h3 .compre {
+        width: 60%;
+        text-align: center;
+    }
+    .menu-lateral {
+        position: static;
+        min-height: auto;
+        width: 100%;
+        margin-top: 50px;
+        }
+        .menu-lateral ul {
+            flex-direction: row;
+        }
+        .conteudo {
+            min-height: 70vh;
+            gap: 50px;
+        }
+        body {
+            padding: 40px;
+        }
+}
