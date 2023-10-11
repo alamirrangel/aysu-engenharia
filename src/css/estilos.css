@@ -10,7 +10,7 @@ main:after {
     position: fixed;
     top: 0;
     left: 0;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgba(0, 0, 0, 1) 90%);
+    background: linear-gradient(80deg, rgba(0, 0, 0, 1) 5%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgb(0, 0, 0) 100%);
     z-index: -1;
 }
 .conteudo {
@@ -18,33 +18,37 @@ main:after {
     flex-direction: column;
     min-height: 100vh;
     justify-content: space-evenly;
+    text-align: center;
 }
 .informacoes .logo {
-    max-width: 300px;
+    max-width: 360px;
     margin-bottom: 30px;
 }
+
 .informacoes .descricao {
-    width: 49%;
+    width: 50%;
     font-size: 20px;
     color: #ffffff;
     line-height: 30px;
+    text-align: center;
+    margin: auto;
 }
 .informacoes img {
     margin-bottom: 0px;
 }
-.conteudo p{
-    margin-top: 0px;
-}
+
 h3 {
     color: #e6c409;
     text-align: center;
     font-size: 30px;
     text-shadow: 2px 2px black;
+    margin-bottom: 16px;
 }
 .compre button  {
-    margin-top: 10px;    
+    margin-top: 16px;    
     display: block;
-    text-align: center;    
+    text-align: center;
+    margin: auto;    
     max-width: 200px;
     padding: 8px 8px;
     border: none;
